@@ -20,8 +20,8 @@ if __name__ == "__main__":
     bot = Client(
         "pmbot",
         bot_token="6913569473:AAE4zUbMO8VkRQgMxI7Ue8yWwP90DM_9yBQ",
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
+        api_id="23415390",
+        api_hash="893de33dd3b9df2e9f06c762d5979e9c",
         plugins=plugins
     )
     bot.run()
