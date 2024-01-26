@@ -1,5 +1,6 @@
 #-------------------------------------- https://github.com/m4mallu/PMChatbot ------------------------------------------#
 import os
+from config import Config
 
 class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
