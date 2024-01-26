@@ -19,7 +19,7 @@ if __name__ == "__main__":
     plugins = dict(root="plugins")
     bot = Client(
         "pmbot",
-        bot_token=Config.TG_BOT_TOKEN,
+        bot_token="6913569473:AAE4zUbMO8VkRQgMxI7Ue8yWwP90DM_9yBQ",
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
         plugins=plugins
